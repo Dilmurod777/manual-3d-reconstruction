@@ -206,7 +206,7 @@ crashlytics-build.properties
 **/data/*
 **/models/*
 **/Models/*
-!data/cubes/
-!data/prefabs/
-!data/videos/
-!data/manuals/
+!python/data/cubes/
+!python/data/prefabs/
+!python/data/videos/
+!python/data/manuals/
