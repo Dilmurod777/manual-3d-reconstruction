@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('./data/videos/cube.mp4')
+cap = cv2.VideoCapture('./data/videos/bolt.mp4')
 
 i, j = 0, 0
 interval = 5
@@ -13,7 +13,7 @@ while True:
 			continue
 		else:
 			if i % interval == 0:
-				cv2.imwrite(f'./data/cubes/{j}.png', frame)
+				cv2.imwrite(f'./data/images/bolts/{j}.png', frame)
 				j += 1
 		i += 1
 	else:
